@@ -1,0 +1,93 @@
+.main-div {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-div {
+  background-color: #fff;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-items input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+}
+
+.add-btn {
+  color: #fff;
+  background-color: #7e1b24;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.todos-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list-item h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.todo-btn {
+  display: flex;
+  gap: 10px;
+  border: none;
+}
+
+.show-items {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #7e1b24;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #460e12;
+}
